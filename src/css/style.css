@@ -1,0 +1,45 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.container {
+  position: relative;
+  top: 15px;
+  width: 98%;
+  height: 80vh;
+  overflow: hidden;
+
+}
+
+.container img {
+  position: absolute;
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+
+/* Bullets */
+
+.bullets {
+  text-align: center;
+}
+
+.bullet-single {
+  position: relative;
+  top: 35px;
+  margin: 0 8px;
+  cursor: pointer;
+  display: inline-block;
+  width: 45px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #ccc;
+}
+
+.active-bullet {
+  background-color: #333;
+}
